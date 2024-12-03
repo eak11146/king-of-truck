@@ -17,7 +17,7 @@
   <!-- 
      <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
  
-	<!-- <link href="Font-Awesome-master/css/font-awesome.css" rel="stylesheet" type="text/css">  -->
+	  <link href="Font-Awesome-master/css/font-awesome.css" rel="stylesheet" type="text/css">  -->
     <script src="js/bootstrap.js"></script>    
     <!-- Bootstrap -->
 	<!-- CSS  --> 
