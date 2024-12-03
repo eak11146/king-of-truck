@@ -1,0 +1,63 @@
+
+
+ 
+   
+/* landing */
+ 
+ 
+.owl-nav{ 
+	width:100%;
+	position:relative;
+	z-index:10;
+	clear:both;
+	text-align:center;
+}	
+ 
+
+ 
+.owl-dots {
+    
+	width:100%;
+	 position: relative;
+	 text-align:center;
+	/*  margin: 30px 0px; */
+}
+.owl-dot {
+  /*   background: none repeat scroll 0 0 #869791; */
+   background-color:#DDD;
+    border-radius: 20px;   
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 1;
+    width: 12px;
+	 display:inline-block;
+}
+ 
+
+.owl-dot.active {
+    background-color: #ff9933;
+   
+}
+  
+ 
+  
+
+@media (max-width:600px) {
+  
+	 
+}
+@media (min-width:601px) and (max-width:991px) {
+	 
+	 
+	
+}
+@media (min-width:992px) and (max-width:1199px) {
+	 
+		 
+
+}
+@media (min-width:1200px) {
+	 
+}
+
+ 

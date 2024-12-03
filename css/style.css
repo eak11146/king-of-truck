@@ -1,0 +1,240 @@
+/* Custom Stylesheet */
+ 
+ @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+ 
+  @import url('https://fonts.googleapis.com/css?family=Athiti:300,400,700|Prompt:300,400,700');
+ 
+ body{
+	 font-family: 'Roboto', sans-serif;
+ }
+  
+ .thai {
+	/* font-family: 'Athiti', sans-serif; */
+	font-family: 'Prompt', sans-serif;
+ 
+ }
+ .navbar {
+    border-radius: 0px;
+}
+.responsive-img {
+    width: 100%;
+    max-height: auto;
+}
+#mainNav{
+	 
+}
+#sidenav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    will-change: opacity;
+}
+.nav-wrapper{
+	padding:0px 15px 0px 15px;
+}
+.index-remark{
+		position:absolute;
+		z-index:10;
+		left:25%;
+		bottom:15%;
+}
+
+	/*
+			.hide-on-small-only
+			.hide-on-small-and-down
+			.hide-on-med-and-down
+			.hide-on-med-and-up
+			.hide-on-med-only
+			.hide-on-large-only
+			.show-on-large
+			.show-on-medium
+			.show-on-small
+			.show-on-medium-and-up
+			.show-on-medium-and-down
+	*/
+  .navbar-nav {
+    /* float: left; */
+     
+	}
+  .nav-wrapper{
+	/*  z-index:100;   */
+  }
+  
+  
+  .padding15{
+	  padding:15px;
+  }
+   .bg-black{
+	   background:#000000;
+   }
+  
+  .b-truck{
+	  
+	   background: url('../images/king-of-truck-model.jpg') no-repeat top center;
+	/*   background: url('../images/bg-home.jpg') no-repeat top center;  */
+		width:100%;
+		height: 100vh;
+		position: relative; 
+		background-size: cover;
+		
+  }
+  .headtext{
+	  color:#000;
+  }
+  
+ .hide_check{
+	opacity:0;
+ }
+ .visible_check{
+	opacity:1;
+ }
+ 
+ .truck-main{
+	/*  margin-top:60px; */
+ }
+ nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+#menu-truck{
+	 display:none;
+	 position:fixed;
+	 z-index:990;
+	 width:100%;
+	 background:#FFF; 
+	 -webkit-box-shadow: 0px 5px 3px 0px rgba(66,66,66,0.7);
+	-moz-box-shadow: 0px 5px 3px 0px rgba(66,66,66,0.7);
+	 box-shadow: 0px 5px 3px 0px rgba(66,66,66,0.7);
+	 height:250px;
+}
+.navcar{
+	margin-top:15px;
+}
+
+.menu .slide{
+	 
+}
+.traspa{
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	width: 100%; 
+		
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=50);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.5;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.5;
+    
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.5;
+}
+
+.fixed-action-btn {
+    position: fixed;
+    right: 23px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+ .fixed-action-btn.horizontal ul {
+    text-align: right;
+    right: 64px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 100%;
+    left: auto;
+    width: 300px;
+}
+
+  #design  {
+		background: url('../images/bg-design.jpg')  no-repeat top center; 
+		width:100%;
+		height: 100vh;
+		position: relative; 
+		background-size: cover;
+	}
+#comfort {
+		background: url('../images/bg-comfort.jpg')  no-repeat top center; 
+		width:100%;
+		height: 100vh;
+		position: relative; 
+		background-size: cover;
+	}
+	#performance {
+		background: url('../images/bg-performance.jpg')  no-repeat top center; 
+		width:100%;
+		height: 100vh;
+		position: relative; 
+		background-size: cover;
+	}
+	#durability{
+		background: url('../images/bg-durability.jpg')  no-repeat top center; 
+		width:100%;
+		height: 100vh;
+		position: relative; 
+		background-size: cover;
+	}
+	#safety{
+		background: url('../images/bg-safety.jpg')  no-repeat top center; 
+		width:100%;
+		height: 100vh;
+		position: relative; 
+		background-size: cover;
+	}
+	#partner{
+		background: url('../images/bg-partner.jpg')  no-repeat top center; 
+		width:100%;
+		height: 100vh;
+		position: relative; 
+		background-size: cover;
+	}
+	
+	#cover {
+	 
+	 
+		width:100%;
+		height: 100vh;
+		position: relative; 
+		background-size: cover;
+ 
+	}
+	
+@media (max-width:600px) {
+  
+	 .index-remark{
+		position:absolute;
+		z-index:10;
+		left:15px;
+		bottom:15%;
+	}
+}
+@media (min-width:601px) and (max-width:991px) {
+	 
+ 
+}
+@media (min-width:992px) and (max-width:1199px) {
+	 
+	 
+
+}
+@media (min-width:1200px) {
+	  
+ 
+}
