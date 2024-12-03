@@ -1,7 +1,7 @@
 <? 
 	@session_start();
 	@ob_start();
-	include_once 'conn.php';
+	// include_once 'conn.php';
  
 	 ?> 
 <!DOCTYPE html>
@@ -46,12 +46,12 @@
 	 	<div style="margin:15px 0px 15px 0px">
 			<select name="type" id="type" name="type" class="browser-default">
 			<option value="" selected="selected"> -- ประเภทการติดต่อ -- </option>
-			<?
+			<?/*
 			 $tsql = mysql_query('SELECT * FROM title_head');
 			 while ($data_op = mysql_fetch_array($tsql)){  
 				 echo '<option value="'.$data_op['id'].'">'.$data_op['name1'].'</option>';
 			 } 
-			
+			*/
 			?>
 			 
 			</select>

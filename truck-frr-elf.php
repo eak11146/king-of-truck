@@ -1,7 +1,7 @@
 <?
 	@session_start();
 	@ob_start();
-	include_once 'conn.php';
+	// include_once 'conn.php';
 ?>
 
 <!DOCTYPE html>
