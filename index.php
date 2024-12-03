@@ -4,7 +4,7 @@
 <head>
 	<? include("head.php"); ?> 
     <title>ISUZU KING OF TRUCKS</title>
-    <!-- Custom styles for this template -->
+     
     <link href="css/scrolling-nav.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/hover.css">
